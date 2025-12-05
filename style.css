@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1c1f26, #2d3344);
+    font-family: "Inter", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.quiz-wrapper {
+    width: 90%;
+    max-width: 550px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.question-counter {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #b0b0b0;
+    font-weight: 500;
+}
+
+.card {
+    padding: 20px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.question-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.answers button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    background: rgba(255,255,255,0.15);
+    color: white;
+}
+
+.answers button:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+.correct {
+    background-color: #4caf50 !important;
+    color: white !important;
+}
+
+.wrong {
+    background-color: #d9534f !important;
+    color: white !important;
+}
+
+.feedback {
+    margin-top: 15px;
+    font-size: 17px;
+    min-height: 40px;
+    color: #f0f0f0;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.back-btn, .restart-btn {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.back-btn {
+    background: rgba(255,255,255,0.15);
+    color: white;
+}
+
+.back-btn:hover:not(:disabled) {
+    background: rgba(255,255,255,0.25);
+}
+
+.back-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.restart-btn {
+    background: #6c757d;
+    color: white;
+}
+
+.restart-btn:hover {
+    background: #5a6268;
+}
+
+.next-btn {
+    margin-top: 15px;
+    padding: 14px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    transition: 0.2s;
+}
+
+.next-btn:hover {
+    background: #2893ff;
+}
+
+.fade-in {
+    animation: fadeIn 0.7s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.97); }
+    to { opacity: 1; transform: scale(1); }
+}

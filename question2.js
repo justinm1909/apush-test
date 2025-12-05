@@ -187,8 +187,8 @@ const questions2 = [
         correct: 0,
         explanation: "The United States acted more confidently in foreign affairs after the war."
     },
-    {
-        q: "Why did many southern leaders view the Tallmadge Amendment as a threat?",
+    
+        q: "Why did many southern leaders view the Tallmadge(missouri compromise) Amendment as a threat?",
         answers: [
             "It imposed gradual emancipation in Missouri",
             "It prohibited the importation of slaves from Africa",

@@ -1,278 +1,344 @@
-// QUESTIONS SET 2 (26–50)
+// QUESTIONS SET 2 (35–68) — Unit 4 ONLY
 const questions2 = [
     {
-        q: "What was the central purpose of Henry Clay's American System?",
+        q: "What initial military advantage did the Confederacy have at the start of the Civil War?",
         answers: [
-            "To promote national economic unity",
-            "To encourage southern independence",
-            "To expand cotton into the West",
-            "To weaken British manufacturing"
+            "Experienced military leadership and fighting a defensive war",
+            "A larger population and industrial base",
+            "Control of the national navy",
+            "Greater railroad mileage"
         ],
         correct: 0,
-        explanation: "The American System aimed to unify the economy with tariffs, roads, and a national bank."
+        explanation: "The South benefited from experienced officers and the advantage of defending its territory."
     },
     {
-        q: "Which innovation most transformed long distance communication during the Market Revolution?",
+        q: "Which Union strategy aimed to suffocate the Southern economy?",
         answers: [
-            "Telegraph",
-            "Steam powered printing press",
-            "Railroad semaphore",
-            "Pneumatic tube delivery"
+            "The Anaconda Plan",
+            "Total War",
+            "Popular Sovereignty",
+            "The Freeport Doctrine"
         ],
         correct: 0,
-        explanation: "The telegraph transformed communication by sending messages instantly across long distances."
+        explanation: "The Anaconda Plan focused on blockading Southern ports and controlling the Mississippi River."
     },
     {
-        q: "What factor most contributed to the decline of the artisan system in early industrial America?",
+        q: "What battle shattered hopes for a short Civil War?",
         answers: [
-            "Mechanization of factory labor",
-            "Collapse of European immigration",
-            "Government restrictions on apprenticeships",
-            "Expansion of agricultural colleges"
+            "First Battle of Bull Run",
+            "Battle of Antietam",
+            "Battle of Gettysburg",
+            "Battle of Shiloh"
         ],
         correct: 0,
-        explanation: "Machines replaced skilled craftsmen and weakened the artisan economy."
+        explanation: "The Confederate victory at Bull Run showed the war would be long and costly."
     },
     {
-        q: "Which belief distinguished Jacksonian Democrats from earlier Democratic Republicans?",
+        q: "Why was the Battle of Antietam significant for Lincoln?",
         answers: [
-            "Political power should expand among common white men",
-            "The National Bank was necessary for economic growth",
-            "States should have the authority to nullify federal laws",
-            "Manufacturing should be the basis of the national economy"
+            "It allowed him to issue the Emancipation Proclamation",
+            "It ended Confederate resistance in the East",
+            "It secured foreign recognition for the Union",
+            "It destroyed Lee’s army"
         ],
         correct: 0,
-        explanation: "Jacksonians promoted wider political participation for common white men."
+        explanation: "Antietam gave Lincoln the political opportunity to announce emancipation."
     },
     {
-        q: "Which conflict highlighted tensions between states rights advocates and federal authority during Jackson's presidency?",
+        q: "What did the Emancipation Proclamation do?",
         answers: [
-            "Nullification Crisis",
-            "Red Stick War",
-            "Black Hawk War",
-            "Aroostook Conflict"
+            "Freed slaves only in Confederate-held territory",
+            "Abolished slavery nationwide immediately",
+            "Granted voting rights to freedmen",
+            "Ended the Civil War"
         ],
         correct: 0,
-        explanation: "South Carolina's nullification challenge tested federal authority."
+        explanation: "It applied only to states in rebellion, not border states."
     },
     {
-        q: "What made the Peggy Eaton affair politically damaging for Jackson?",
+        q: "How did emancipation change the purpose of the war?",
         answers: [
-            "It fractured his cabinet and intensified rivalries",
-            "It led to a formal censure by Congress",
-            "It undermined support for Indian Removal",
-            "It caused national economic panic"
+            "It made ending slavery a central Union goal",
+            "It reduced Northern support for the war",
+            "It encouraged Southern compromise",
+            "It weakened federal authority"
         ],
         correct: 0,
-        explanation: "The scandal split Jackson's cabinet and fueled political rivalries."
+        explanation: "The war became explicitly linked to ending slavery."
     },
     {
-        q: "Which argument did the Supreme Court reject in McCulloch v. Maryland?",
+        q: "Which group served in large numbers in the Union Army after 1863?",
         answers: [
-            "States may tax federal institutions",
-            "Congress may charter a national bank",
-            "Federal power derives from implied authority",
-            "Federal law holds supremacy over state law"
+            "African American soldiers",
+            "Recent Irish immigrants",
+            "Former Confederate officers",
+            "Native American tribes"
         ],
         correct: 0,
-        explanation: "The Court ruled states could not tax federal institutions."
+        explanation: "About 200,000 African Americans fought for the Union."
     },
     {
-        q: "Why did abolitionists criticize the Gag Rule of the 1830s?",
+        q: "What twin Union victories in 1863 marked a major turning point?",
         answers: [
-            "It suppressed the right to petition Congress",
-            "It legalized interstate slave patrols",
-            "It banned distribution of antislavery newspapers",
-            "It prevented freedmen from testifying in court"
+            "Gettysburg and Vicksburg",
+            "Antietam and Fredericksburg",
+            "Shiloh and Bull Run",
+            "Fort Sumter and Richmond"
         ],
         correct: 0,
-        explanation: "The Gag Rule blocked antislavery petitions, restricting citizens' right to petition Congress."
+        explanation: "Gettysburg stopped Lee’s invasion while Vicksburg gave the Union control of the Mississippi."
     },
     {
-        q: "What was the main purpose of the American Colonization Society?",
+        q: "What strategy did Ulysses S. Grant favor to defeat the Confederacy?",
         answers: [
-            "Resettling freed African Americans in West Africa",
-            "Promoting biracial public education",
-            "Ending slavery through compensated emancipation",
-            "Funding southern infrastructure expansion"
+            "War of attrition",
+            "Naval supremacy",
+            "Limited engagement",
+            "Diplomatic isolation"
         ],
         correct: 0,
-        explanation: "The society sought to relocate freed African Americans to Liberia."
+        explanation: "Grant believed the Union could outlast the South through constant pressure."
     },
     {
-        q: "What distinguished William Lloyd Garrison's abolitionist strategy from more moderate reformers?",
+        q: "What was the goal of Sherman’s March to the Sea?",
         answers: [
-            "His demand for immediate and uncompensated emancipation",
-            "His proposal to compensate slaveholders",
-            "His support for gradual colonization",
-            "His willingness to work with southern politicians"
+            "To destroy Southern morale and resources",
+            "To capture Confederate leadership",
+            "To secure foreign alliances",
+            "To defend Washington, D.C."
         ],
         correct: 0,
-        explanation: "Garrison demanded immediate emancipation without compensation."
+        explanation: "Sherman targeted infrastructure and civilian resources to break Southern will."
     },
     {
-        q: "Which reformer focused primarily on improving conditions for the mentally ill?",
+        q: "How did the Civil War end?",
         answers: [
-            "Dorothea Dix",
-            "Catherine Beecher",
-            "Susan B. Anthony",
-            "Angelina Grimke"
+            "Lee surrendered to Grant at Appomattox Court House",
+            "Jefferson Davis resigned",
+            "The Union captured Richmond",
+            "Congress passed the Thirteenth Amendment"
         ],
         correct: 0,
-        explanation: "Dorothea Dix exposed abusive treatment of the mentally ill."
+        explanation: "Lee surrendered in April 1865, effectively ending the war."
     },
     {
-        q: "How did the Oneida Community challenge traditional American cultural norms?",
+        q: "What constitutional amendment formally abolished slavery?",
         answers: [
-            "Through complex marriage and communal economics",
-            "By abolishing all religious practice",
-            "By prohibiting agricultural labor",
-            "By promoting armed resistance to federal authority"
+            "Thirteenth Amendment",
+            "Fourteenth Amendment",
+            "Fifteenth Amendment",
+            "Civil Rights Act of 1866"
         ],
         correct: 0,
-        explanation: "Oneida rejected traditional marriage and practiced communal living."
+        explanation: "The Thirteenth Amendment ended slavery nationwide."
     },
     {
-        q: "Which factor most encouraged the growth of public schools in the early nineteenth century?",
+        q: "What was the central question of Reconstruction?",
         answers: [
-            "The belief that education strengthened republican values",
-            "Federal mandates for compulsory attendance",
-            "Immigration quotas tied to school enrollment",
-            "Expansion of church controlled academies"
+            "How to reintegrate the South and define freedom for former slaves",
+            "How to expand westward settlement",
+            "How to regulate industrial growth",
+            "How to limit immigration"
         ],
         correct: 0,
-        explanation: "Public schools were promoted to create informed, moral citizens essential for republican society."
+        explanation: "Reconstruction focused on rebuilding the South and redefining citizenship."
     },
     {
-        q: "What factor most contributed to the internal slave trade within the United States during this period?",
+        q: "What was Lincoln’s basic approach to Reconstruction?",
         answers: [
-            "Growth of cotton agriculture in the Deep South",
-            "Demand for enslaved labor in northern factories",
-            "Decline of plantation production in Texas",
-            "Increased federal restrictions on interstate commerce"
+            "Lenient terms to restore the Union quickly",
+            "Harsh punishment of Southern leaders",
+            "Immediate military rule",
+            "Economic isolation of the South"
         ],
         correct: 0,
-        explanation: "The cotton boom in the Deep South increased demand for enslaved labor."
+        explanation: "Lincoln favored quick reconciliation through lenient policies."
     },
     {
-        q: "Which demand did the Liberty Party emphasize most strongly?",
+        q: "What requirement defined Lincoln’s Ten Percent Plan?",
         answers: [
-            "Immediate abolition achieved through political action",
-            "Extension of slavery into western territories",
-            "Support for high protective tariffs",
-            "Reduced taxes for southern planters"
+            "Ten percent of voters must swear loyalty to rejoin the Union",
+            "Ten percent of land must be redistributed",
+            "Ten percent of slaves must be freed",
+            "Ten percent of taxes must go to the federal government"
         ],
         correct: 0,
-        explanation: "The Liberty Party pushed for immediate abolition through politics."
+        explanation: "Only ten percent of voters had to take a loyalty oath."
     },
     {
-        q: "Which event most clearly exposed American sectional tensions during Monroe's presidency?",
+        q: "Which bill proposed much stricter Reconstruction requirements?",
         answers: [
-            "Missouri Compromise",
-            "Panic of 1819",
-            "Seminole Wars",
-            "Adams Onis negotiations"
+            "Wade-Davis Bill",
+            "Homestead Act",
+            "Freedmen’s Bureau Act",
+            "Tenure of Office Act"
         ],
         correct: 0,
-        explanation: "The Missouri Compromise exposed deep divisions over slavery expansion."
+        explanation: "The Wade-Davis Bill required 50 percent loyalty oaths."
     },
     {
-        q: "Which statement best describes American foreign policy after the War of 1812?",
+        q: "What organization provided aid to freed slaves after the war?",
         answers: [
-            "A more assertive national identity emerged in dealings with Europe",
-            "The United States adopted strict neutrality in all conflicts",
-            "Federalists dominated diplomatic negotiations",
-            "Western expansion was temporarily halted"
+            "Freedmen’s Bureau",
+            "American Colonization Society",
+            "Union League",
+            "Red Cross"
         ],
         correct: 0,
-        explanation: "The United States acted more confidently in foreign affairs after the war."
-    },
-    
-        q: "Why did many southern leaders view the Tallmadge(missouri compromise) Amendment as a threat?",
-        answers: [
-            "It imposed gradual emancipation in Missouri",
-            "It prohibited the importation of slaves from Africa",
-            "It required limits on cotton exports",
-            "It transferred judicial authority to Congress"
-        ],
-        correct: 0,
-        explanation: "It placed restrictions on slavery in Missouri, alarming southern leaders."
+        explanation: "The Freedmen’s Bureau offered food, education, and legal assistance."
     },
     {
-        q: "What motivated Mexico to encourage American settlement in Texas during the 1820s?",
+        q: "What event abruptly changed Reconstruction leadership?",
         answers: [
-            "Desire to stabilize and populate its northern frontier",
-            "Agreement to expand slavery into central Mexico",
-            "Plan to seek international recognition from Britain",
-            "Effort to undermine Spanish loyalty among settlers"
+            "Lincoln’s assassination",
+            "Grant’s election",
+            "Johnson’s impeachment",
+            "The Compromise of 1877"
         ],
         correct: 0,
-        explanation: "Mexico wanted to strengthen control over its unsettled northern frontier."
+        explanation: "Lincoln’s assassination placed Andrew Johnson in power."
     },
     {
-        q: "Which factor most contributed to tensions between American settlers and the Mexican government before the Texas Revolution?",
+        q: "What characterized Andrew Johnson’s view on Reconstruction?",
         answers: [
-            "Disputes over slavery and immigration restrictions",
-            "Competition over gold mining rights",
-            "Hostility caused by British intervention",
-            "Conflicts over Spanish language requirements"
+            "Strong opposition to black political equality",
+            "Support for Radical Republican goals",
+            "Advocacy for land redistribution",
+            "Strict enforcement of military rule"
         ],
         correct: 0,
-        explanation: "Settlers clashed with Mexico over slavery restrictions and immigration control."
+        explanation: "Johnson opposed civil and voting rights for African Americans."
     },
     {
-        q: "Why did the annexation of Texas heighten sectional conflict?",
+        q: "What were Black Codes designed to do?",
         answers: [
-            "It reopened debate about the expansion of slavery",
-            "It required immediate creation of new tariffs",
-            "It threatened northern control of shipping routes",
-            "It violated a treaty with France"
+            "Restrict the freedom of African Americans",
+            "Provide land to freed slaves",
+            "Enforce military service",
+            "Guarantee equal wages"
         ],
         correct: 0,
-        explanation: "Texas raised the question of whether new states would be slave or free."
+        explanation: "Black Codes limited economic and personal freedom."
     },
     {
-        q: "Which military action marked the beginning of open conflict in the Mexican American War?",
+        q: "Why did Congress clash with President Johnson?",
         answers: [
-            "Fighting between Mexican and American troops in disputed border territory",
-            "The U.S. invasion of California",
-            "The siege of Mexico City",
-            "British naval intervention along the Gulf Coast"
+            "He vetoed civil rights legislation",
+            "He expanded federal authority too far",
+            "He supported Radical Republicans",
+            "He abolished the Freedmen’s Bureau"
         ],
         correct: 0,
-        explanation: "Combat began when troops fought in disputed border lands between the Nueces and the Rio Grande."
+        explanation: "Johnson vetoed bills protecting African American rights."
     },
     {
-        q: "What was a major domestic controversy surrounding the Mexican American War?",
+        q: "What amendment defined citizenship and equal protection?",
         answers: [
-            "Many believed it was an unjust war intended to expand slavery",
-            "It caused a constitutional crisis over presidential succession",
-            "It resulted in the collapse of cotton production",
-            "It led to a freeze on westward migration"
+            "Fourteenth Amendment",
+            "Thirteenth Amendment",
+            "Fifteenth Amendment",
+            "Twelfth Amendment"
         ],
         correct: 0,
-        explanation: "Critics argued the war aimed to expand slavery and unjustly seize Mexican land."
+        explanation: "The Fourteenth Amendment guaranteed citizenship and equal protection."
     },
     {
-        q: "Which territorial acquisition most intensified debates over the expansion of slavery in the late 1840s?",
+        q: "What power did the Reconstruction Acts of 1867 give the federal government?",
         answers: [
-            "Mexican Cession",
-            "Oregon Territory",
-            "Florida",
-            "Maine"
+            "Military control over Southern states",
+            "Authority to abolish state governments permanently",
+            "Power to seize private plantations",
+            "Control over Supreme Court decisions"
         ],
         correct: 0,
-        explanation: "New land gained from Mexico reignited disputes over whether slavery could expand."
+        explanation: "The South was divided into military districts."
     },
     {
-        q: "Which event most directly contributed to the emergence of the Free Soil ideology?",
+        q: "Why was Andrew Johnson impeached?",
         answers: [
-            "Westward migration of northern farmers",
-            "Decline of the southern cotton economy",
-            "Arrival of large numbers of Irish immigrants",
-            "Passage of the Monroe Doctrine"
+            "He violated the Tenure of Office Act",
+            "He supported the Confederacy militarily",
+            "He blocked constitutional amendments",
+            "He refused to enforce federal taxes"
         ],
         correct: 0,
-        explanation: "Farmers moving west wanted land preserved for free labor."
+        explanation: "Johnson removed Secretary Stanton without Senate approval."
+    },
+    {
+        q: "What amendment guaranteed voting rights regardless of race?",
+        answers: [
+            "Fifteenth Amendment",
+            "Fourteenth Amendment",
+            "Thirteenth Amendment",
+            "Civil Rights Act of 1875"
+        ],
+        correct: 0,
+        explanation: "The Fifteenth Amendment prohibited racial voting discrimination."
+    },
+    {
+        q: "Who were carpetbaggers?",
+        answers: [
+            "Northern migrants to the postwar South",
+            "Former Confederate officers",
+            "Southern farmers",
+            "Federal soldiers"
+        ],
+        correct: 0,
+        explanation: "Carpetbaggers moved south seeking opportunity or influence."
+    },
+    {
+        q: "What system replaced slavery as the dominant labor system in the South?",
+        answers: [
+            "Sharecropping",
+            "Tenant farming unions",
+            "Wage labor",
+            "Indentured servitude"
+        ],
+        correct: 0,
+        explanation: "Sharecropping tied freedmen to landowners through debt."
+    },
+    {
+        q: "What problem weakened Reconstruction governments?",
+        answers: [
+            "Corruption and economic instability",
+            "Lack of Northern military support",
+            "Excessive land redistribution",
+            "Foreign intervention"
+        ],
+        correct: 0,
+        explanation: "Graft and financial mismanagement hurt Reconstruction efforts."
+    },
+    {
+        q: "What organization used violence to resist Reconstruction?",
+        answers: [
+            "Ku Klux Klan",
+            "Freedmen’s Bureau",
+            "Union League",
+            "Know-Nothing Party"
+        ],
+        correct: 0,
+        explanation: "The KKK used intimidation and violence against freedmen and Republicans."
+    },
+    {
+        q: "What was the goal of the Force Acts?",
+        answers: [
+            "To suppress KKK violence and enforce civil rights",
+            "To remove federal troops from the South",
+            "To regulate state elections",
+            "To impeach Southern officials"
+        ],
+        correct: 0,
+        explanation: "Force Acts aimed to protect African American voting rights."
+    },
+    {
+        q: "What event effectively ended Reconstruction?",
+        answers: [
+            "The Compromise of 1877",
+            "Grant’s re-election",
+            "The Civil Rights Act of 1875",
+            "Johnson’s impeachment"
+        ],
+        correct: 0,
+        explanation: "Federal troops were withdrawn from the South after 1877."
     }
 ];

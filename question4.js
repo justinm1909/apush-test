@@ -1,278 +1,355 @@
-// QUESTIONS SET 4 (76–100)
+// QUESTIONS SET 4 (103–135) — Unit 4 ONLY
 const questions4 = [
     {
-        q: "Which policy idea most defined the Free Soil movement?",
+        q: "Who were the two candidates in the disputed presidential election of 1876?",
         answers: [
-            "Western lands should be reserved for free white laborers",
-            "Slavery should be abolished nationwide",
-            "All western settlers should receive federal subsidies",
-            "States should regulate internal improvements"
+            "Rutherford B. Hayes and Samuel J. Tilden",
+            "Ulysses S. Grant and Horace Greeley",
+            "Andrew Johnson and Thaddeus Stevens",
+            "Abraham Lincoln and Stephen Douglas"
         ],
         correct: 0,
-        explanation: "Free Soil supporters wanted the West reserved for free labor, not slavery."
+        explanation: "Hayes was the Republican nominee and Tilden the Democrat."
     },
     {
-        q: "Why did the Mexican American War deepen sectional division?",
+        q: "Why was the election of 1876 considered disputed?",
         answers: [
-            "Each region interpreted the war's purpose differently, especially regarding slavery",
-            "Northern states refused to fund the war",
-            "Southern states opposed acquiring California",
-            "The war encouraged a return to the Federalist Party"
+            "Electoral votes were contested in several Southern states",
+            "Neither candidate won a majority of popular votes",
+            "Congress rejected the election results outright",
+            "Foreign governments interfered"
         ],
         correct: 0,
-        explanation: "Regions disagreed about the purpose and consequences of the war, particularly regarding slavery."
+        explanation: "Returns from South Carolina, Florida, and Louisiana were contested."
     },
     {
-        q: "Which factor most directly caused the rise of American manufacturing after 1815?",
+        q: "What was the purpose of the special electoral commission in 1877?",
         answers: [
-            "British trade restrictions during the War of 1812",
-            "Cheap labor from the Deep South",
-            "Federal prohibition on cotton exports",
-            "Collapse of canal transportation"
+            "To decide which candidate received disputed electoral votes",
+            "To rewrite the Constitution",
+            "To supervise Southern elections permanently",
+            "To impeach the president"
         ],
         correct: 0,
-        explanation: "War disruptions forced Americans to develop domestic manufacturing."
+        explanation: "Congress created a commission to resolve the election crisis."
     },
     {
-        q: "Which statement best explains the decline of the Federalist Party after 1815?",
+        q: "What agreement resolved the election of 1876?",
         answers: [
-            "Their opposition to the War of 1812 appeared unpatriotic",
-            "They supported high tariffs unpopular in the North",
-            "They refused to support westward expansion",
-            "They advocated abolition before most Americans"
+            "The Compromise of 1877",
+            "The Missouri Compromise",
+            "The Crittenden Compromise",
+            "The Compromise of 1850"
         ],
         correct: 0,
-        explanation: "The Hartford Convention made Federalists seem unpatriotic after the war."
+        explanation: "The Compromise of 1877 settled the disputed election."
     },
     {
-        q: "Which characteristic made Jackson's presidency distinct from earlier administrations?",
+        q: "What did Democrats gain from the Compromise of 1877?",
         answers: [
-            "His portrayal of himself as a champion of the common man",
-            "His reliance on the Supreme Court to settle disputes",
-            "His desire to expand northern industry",
-            "His refusal to use the veto power"
+            "Withdrawal of federal troops from the South",
+            "Immediate land redistribution",
+            "Expansion of Reconstruction governments",
+            "Federal enforcement of civil rights"
         ],
         correct: 0,
-        explanation: "Jackson portrayed himself as the defender of ordinary Americans."
+        explanation: "Federal troops were removed, ending Reconstruction."
     },
     {
-        q: "Why did the United States pursue the Gadsden Purchase shortly after the Mexican American War?",
+        q: "What promise did Hayes make to secure the presidency?",
         answers: [
-            "To secure land suitable for a southern transcontinental railroad",
-            "To pressure Mexico into adopting a republican government",
-            "To expand cotton production into Baja California",
-            "To protect American traders from Native raids"
+            "To end federal support for Southern Republicans",
+            "To expand voting rights protections",
+            "To redistribute plantation land",
+            "To raise tariffs nationwide"
         ],
         correct: 0,
-        explanation: "The land was ideal for building a southern transcontinental railroad."
+        explanation: "Hayes agreed to withdraw troops and limit federal intervention."
     },
     {
-        q: "Which development most strengthened southern dependence on slavery between 1800 and 1860?",
+        q: "What immediate effect followed the Compromise of 1877?",
         answers: [
-            "Global demand for cotton increased dramatically",
-            "Plantation owners received federal subsidies",
-            "The South industrialized faster than the North",
-            "Britain banned cotton imports"
+            "The collapse of Reconstruction governments",
+            "The expansion of black voting rights",
+            "Renewed military occupation",
+            "Southern economic recovery"
         ],
         correct: 0,
-        explanation: "Rising world demand for cotton strengthened southern reliance on slavery."
+        explanation: "Without troops, Republican governments fell."
     },
     {
-        q: "Which feature of the American System most concerned southern leaders?",
+        q: "Who regained political control of Southern states after Reconstruction?",
         answers: [
-            "High protective tariffs",
-            "Expansion of the National Road",
-            "Use of federal funds for canals",
-            "Construction of military academies"
+            "White Democratic Redeemers",
+            "Radical Republicans",
+            "Freedmen’s coalitions",
+            "Northern industrialists"
         ],
         correct: 0,
-        explanation: "Southern planters opposed tariffs that raised prices on imported goods."
+        explanation: "Redeemers reestablished white Democratic rule."
     },
     {
-        q: "Which belief united many early nineteenth century utopian communities?",
+        q: "What ideology justified Redeemer rule in the South?",
         answers: [
-            "Society required radical restructuring to overcome inequality",
-            "Private property should be universally expanded",
-            "Political parties were necessary for social harmony",
-            "Scientific research should govern all institutions"
+            "White supremacy",
+            "Popular sovereignty",
+            "Abolitionism",
+            "Federalism"
         ],
         correct: 0,
-        explanation: "Utopian groups believed society required major restructuring to eliminate inequality."
+        explanation: "Redeemers promoted white supremacist ideology."
     },
     {
-        q: "Why did the rise of reform movements worry some Americans?",
+        q: "What organization continued violent resistance after Reconstruction?",
         answers: [
-            "They feared rapid social changes would weaken traditional institutions",
-            "Reformers were often funded by foreign governments",
-            "Many reforms required abolition of state governments",
-            "Reformers sought to replace Congress with local committees"
+            "Ku Klux Klan",
+            "Republican Party",
+            "Freedmen’s Bureau",
+            "Union League"
         ],
         correct: 0,
-        explanation: "Some feared rapid reform threatened long standing social institutions."
+        explanation: "The KKK intimidated black voters and Republicans."
     },
     {
-        q: "Which transformation most characterized the Market Revolution?",
+        q: "What was the long-term effect of ending Reconstruction on African Americans?",
         answers: [
-            "A shift from household production to a national commercial economy",
-            "Elimination of barter and household trades",
-            "End of southern plantation agriculture",
-            "Expansion of government owned industries"
+            "Loss of political rights and protections",
+            "Permanent land ownership guarantees",
+            "Full economic independence",
+            "Equal enforcement of civil rights"
         ],
         correct: 0,
-        explanation: "The nation shifted from home based production to a market based economy."
+        explanation: "Federal protection ended, allowing discrimination."
     },
     {
-        q: "Which social change accompanied the spread of wage labor in northern cities?",
+        q: "Which amendment was undermined after Reconstruction ended?",
         answers: [
-            "Expansion of distinct working class identities",
-            "Decline of urban ethnic enclaves",
-            "Reduction in child labor",
-            "Replacement of women workers with enslaved labor"
+            "Fifteenth Amendment",
+            "Thirteenth Amendment",
+            "Twelfth Amendment",
+            "Eighteenth Amendment"
         ],
         correct: 0,
-        explanation: "Wage labor created a new working class identity in northern cities."
+        explanation: "Voting rights were systematically restricted."
     },
     {
-        q: "Why did the collapse of Tecumseh's confederacy weaken Native resistance in the Old Northwest?",
+        q: "What tactic did Southern states use to suppress black voting?",
         answers: [
-            "It ended hopes for a unified tribal alliance against U.S. expansion",
-            "It transferred all trade rights to the British",
-            "It removed Native control over the Mississippi River",
-            "It allowed Mexico to seize tribal lands"
+            "Intimidation and violence",
+            "Tariff manipulation",
+            "Military occupation",
+            "Judicial expansion"
         ],
         correct: 0,
-        explanation: "Tecumseh's fall ended the most promising attempt at unified resistance."
+        explanation: "Violence and fear discouraged black political participation."
     },
     {
-        q: "Which invention most contributed to the rise of commercial agriculture in the Old Northwest?",
+        q: "What economic system dominated the post-Reconstruction South?",
         answers: [
-            "Mechanical reaper",
-            "Steel plow",
-            "Cotton gin",
-            "Telegraph"
+            "Sharecropping and tenant farming",
+            "Industrial wage labor",
+            "Plantation slavery",
+            "Collective farming"
         ],
         correct: 0,
-        explanation: "The mechanical reaper increased farm productivity dramatically."
+        explanation: "Sharecropping persisted after Reconstruction."
     },
     {
-        q: "Why did political participation increase dramatically during the Age of Jackson?",
+        q: "What social change did Reconstruction governments achieve?",
         answers: [
-            "Most states abolished property requirements for voting",
-            "The Supreme Court mandated equal voting rights",
-            "Congress expanded suffrage to women",
-            "Western states required mandatory turnout"
+            "Expansion of public education in the South",
+            "Permanent racial equality",
+            "End of class divisions",
+            "Elimination of corruption"
         ],
         correct: 0,
-        explanation: "Most states dropped property requirements, allowing many more men to vote."
+        explanation: "Reconstruction established public schools."
     },
     {
-        q: "Which event most exposed the contradictions in Jackson's democratic philosophy?",
+        q: "What weakened Republican support in the North during Reconstruction?",
         answers: [
-            "Support for Indian Removal",
-            "Veto of internal improvement bills",
-            "Support for the Spoils System",
-            "His opposition to the National Bank"
+            "Economic depression and corruption scandals",
+            "Southern military resurgence",
+            "Foreign intervention",
+            "Supreme Court rulings"
         ],
         correct: 0,
-        explanation: "Jackson claimed to champion democracy while supporting oppressive Indian policies."
+        explanation: "The Panic of 1873 and scandals reduced enthusiasm."
     },
     {
-        q: "Which territory was the primary subject of negotiation in the Oregon Treaty of 1846?",
+        q: "What scandal involved railroad bribery during Grant’s presidency?",
         answers: [
-            "Pacific Northwest boundary with Britain",
-            "Southwestern border with Mexico",
-            "Great Lakes navigation rights",
-            "Atlantic coastline fishing rights"
+            "Credit Mobilier",
+            "Whiskey Ring",
+            "Teapot Dome",
+            "Tweed Ring"
         ],
         correct: 0,
-        explanation: "The treaty settled the U.S. British boundary in the Pacific Northwest."
+        explanation: "Railroad executives bribed members of Congress."
     },
     {
-        q: "Why did the Wilmot Proviso alarm southern leaders?",
+        q: "What did the Whiskey Ring scandal involve?",
         answers: [
-            "It sought to ban slavery in all territory gained from Mexico",
-            "It threatened to dissolve the Missouri Compromise",
-            "It limited congressional representation",
-            "It placed tariffs on cotton exports"
+            "Tax evasion by government officials and distillers",
+            "Illegal land sales",
+            "Foreign bribery",
+            "Banking fraud"
         ],
         correct: 0,
-        explanation: "The proviso attempted to ban slavery in all land gained from Mexico."
+        explanation: "Officials helped defraud the government of liquor taxes."
     },
     {
-        q: "Which reform movement most directly challenged the legal doctrine of coverture?",
+        q: "What role did political machines play in the postwar era?",
         answers: [
-            "Women's rights movement",
-            "Temperance movement",
-            "Prison reform",
-            "Educational reform"
+            "They traded jobs and favors for votes",
+            "They expanded civil rights protections",
+            "They eliminated corruption",
+            "They promoted Reconstruction"
         ],
         correct: 0,
-        explanation: "Women's rights activists fought legal restrictions that placed wives under male authority."
+        explanation: "Patronage dominated urban politics."
     },
     {
-        q: "Why did the Oneida Community become controversial even among reform minded Americans?",
+        q: "Who was associated with political corruption in New York City?",
         answers: [
-            "Its system of complex marriage challenged traditional family norms",
-            "It refused to participate in wage labor",
-            "It advocated political violence",
-            "It opposed public education"
+            "William Tweed",
+            "Ulysses S. Grant",
+            "Andrew Johnson",
+            "Samuel Tilden"
         ],
         correct: 0,
-        explanation: "Its practice of complex marriage challenged norms about family and sexuality."
+        explanation: "Boss Tweed led a corrupt political machine."
     },
     {
-        q: "Which transportation improvement most reduced shipping costs across long distances?",
+        q: "What economic approach did Grant support after the Panic of 1873?",
         answers: [
-            "Canals connecting western farms to eastern markets",
-            "Gravel turnpikes built in the Northeast",
-            "Horse drawn river ferries",
-            "Mountain footpaths in the Appalachians"
+            "Hard money backed by gold",
+            "Inflation through greenbacks",
+            "Land redistribution",
+            "Tariff elimination"
         ],
         correct: 0,
-        explanation: "Canals greatly lowered transportation costs and linked regions to markets."
+        explanation: "Grant favored a stable, gold-backed currency."
     },
     {
-        q: "Why did northern industrialists oppose the spread of slavery into western territories?",
+        q: "What law removed restrictions on former Confederates?",
         answers: [
-            "They believed slavery reduced opportunities for free labor",
-            "They preferred to expand textile production to the West",
-            "They feared enslaved laborers would escape to northern factories",
-            "They wanted to preserve political power for southern states"
+            "Amnesty Act of 1872",
+            "Force Act",
+            "Civil Rights Act of 1875",
+            "Reconstruction Act"
         ],
         correct: 0,
-        explanation: "Northerners feared slavery would limit opportunities for white free labor."
+        explanation: "Most Confederates regained political rights."
     },
     {
-        q: "What was the most significant political effect of increased immigration in the mid nineteenth century?",
+        q: "What political shift followed the end of Reconstruction?",
         answers: [
-            "Rise of nativist political parties like the Know Nothings",
-            "Collapse of Democratic Party influence",
-            "Expansion of voting rights for immigrants",
-            "Transfer of political power to industrial corporations"
+            "The South became solidly Democratic",
+            "The South became Republican",
+            "Third parties dominated",
+            "Federal control increased"
         ],
         correct: 0,
-        explanation: "Anti immigrant parties rose as immigration increased dramatically."
+        explanation: "Democrats regained dominance in the South."
     },
     {
-        q: "Why did the United States pursue aggressive diplomacy in the Pacific during the 1840s?",
+        q: "What was the ultimate legacy of Reconstruction?",
         answers: [
-            "To secure coaling stations and open Asian trade markets",
-            "To establish joint rule with Britain over Hawaii",
-            "To spread Catholic missions along the West Coast",
-            "To relocate eastern Native tribes"
+            "Temporary gains for African Americans followed by retreat",
+            "Permanent racial equality",
+            "Economic dominance of freedmen",
+            "Federal military rule"
         ],
         correct: 0,
-        explanation: "The United States sought Pacific ports and trading access in Asia."
+        explanation: "Many gains were reversed after 1877."
     },
     {
-        q: "Which larger historical trend best connects the reform movements, market changes, and political conflicts of Period 4?",
+        q: "Which theme best summarizes Unit 4 overall?",
         answers: [
-            "The rise of democratic participation alongside rapid economic transformation",
-            "The collapse of federal authority in the West",
-            "The dominance of southern agriculture in national policy",
-            "The decline of urbanization throughout the North"
+            "Expansion, conflict, war, and incomplete reform",
+            "Isolation and neutrality",
+            "Industrialization without resistance",
+            "Peaceful political compromise"
         ],
         correct: 0,
-        explanation: "Period 4 is defined by expanding democracy combined with rapid market transformation."
+        explanation: "Unit 4 traces expansion through conflict and unfinished change."
+    },
+    {
+        q: "What unresolved issue carried forward after 1877?",
+        answers: [
+            "Civil rights enforcement",
+            "Territorial expansion",
+            "Foreign diplomacy",
+            "Banking regulation"
+        ],
+        correct: 0,
+        explanation: "Federal protection of civil rights weakened after Reconstruction."
+    },
+    {
+        q: "What best explains why Reconstruction failed long term?",
+        answers: [
+            "Lack of sustained federal commitment",
+            "Insufficient constitutional amendments",
+            "Foreign intervention",
+            "Northern military weakness"
+        ],
+        correct: 0,
+        explanation: "Federal enforcement declined over time."
+    },
+    {
+        q: "What political development marked the post-Reconstruction era?",
+        answers: [
+            "The rise of Jim Crow systems",
+            "The expansion of Radical Republican power",
+            "Immediate desegregation",
+            "Economic equality"
+        ],
+        correct: 0,
+        explanation: "Segregation and voter suppression expanded."
+    },
+    {
+        q: "What phrase best describes the end of Reconstruction?",
+        answers: [
+            "Redemption of the South",
+            "New Birth of Freedom",
+            "Era of Good Feelings",
+            "Progressive Reform"
+        ],
+        correct: 0,
+        explanation: "Southern Democrats called their return to power 'Redemption.'"
+    },
+    {
+        q: "Which federal protection disappeared after 1877?",
+        answers: [
+            "Military enforcement of civil rights",
+            "The Constitution",
+            "State governments",
+            "Congressional authority"
+        ],
+        correct: 0,
+        explanation: "Federal troops were withdrawn from the South."
+    },
+    {
+        q: "What consequence followed troop withdrawal?",
+        answers: [
+            "Systematic voter suppression",
+            "Expansion of public schooling",
+            "Economic boom",
+            "Federal reoccupation"
+        ],
+        correct: 0,
+        explanation: "Violence and suppression went unchecked."
+    },
+    {
+        q: "What best explains the term 'unfinished revolution' in Reconstruction?",
+        answers: [
+            "Political equality was not sustained",
+            "Slavery was never abolished",
+            "The Union collapsed again",
+            "Amendments were repealed"
+        ],
+        correct: 0,
+        explanation: "Formal rights existed but lacked enforcement."
     }
 ];

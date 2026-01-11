@@ -1,278 +1,333 @@
-// QUESTIONS SET 1 (1–25)
+// QUESTIONS SET 1 (1–34) — Unit 4 ONLY
 const questions1 = [
     {
-        q: "Which constitutional debate resurfaced most sharply during the controversy over the Louisiana Purchase?",
+        q: "Who first used the term 'manifest destiny' according to the slideshow?",
         answers: [
-            "The extent of implied presidential powers",
-            "The authority of states to nullify federal treaties",
-            "The legality of expanding slavery into new territories",
-            "The role of Congress in regulating interstate trade"
+            "John L. O’Sullivan",
+            "James K. Polk",
+            "Henry Clay",
+            "Daniel Webster"
         ],
         correct: 0,
-        explanation: "Jefferson worried the Constitution did not explicitly permit purchasing foreign territory."
+        explanation: "The slideshow credits journalist John L. O’Sullivan with coining the term in 1845."
     },
     {
-        q: "How did the Embargo Act of 1807 most significantly alter patterns of American economic development?",
+        q: "What belief most defined the concept of Manifest Destiny?",
         answers: [
-            "It triggered rapid industrial growth in the northern states",
-            "It increased southern dependence on British cotton markets",
-            "It permanently redirected U.S. trade toward Asia",
-            "It forced Western farmers to diversify crop production"
+            "That the United States had a divine mission to expand westward",
+            "That western lands should be preserved for Native nations",
+            "That industrial growth mattered more than land acquisition",
+            "That expansion required unanimous international approval"
         ],
         correct: 0,
-        explanation: "Cutting off Atlantic trade pushed northern manufacturers to expand domestic production."
+        explanation: "Manifest Destiny argued the U.S. was divinely destined to expand across the continent."
     },
     {
-        q: "Which strategic outcome did the War Hawks most hope to achieve through conflict with Britain in 1812?",
+        q: "Why did Mexico initially encourage American settlement in Texas?",
         answers: [
-            "Territorial expansion into Canada",
-            "Permanent neutrality agreements with Europe",
-            "Restoration of the National Bank",
-            "Access to Spanish trade ports"
+            "To populate and farm its northern frontier",
+            "To expand slavery-based agriculture",
+            "To weaken U.S. influence in Louisiana",
+            "To build railroads with U.S. capital"
         ],
         correct: 0,
-        explanation: "War Hawks wanted war partly to seize Canada."
+        explanation: "Mexico hoped settlers would develop and secure its sparsely populated frontier."
     },
     {
-        q: "Which long term consequence of the War of 1812 most influenced American nationalism?",
+        q: "Which Mexican policy most angered American settlers in Texas?",
         answers: [
-            "Strengthening of frontier militias",
-            "Collapse of the Federalist Party",
-            "Expansion of voting rights to all taxpayers",
-            "Establishment of a national draft system"
-        ],
-        correct: 1,
-        explanation: "The Federalist Party collapsed after being seen as unpatriotic, strengthening national unity."
-    },
-    {
-        q: "Why did the Missouri Crisis intensify sectional divisions more than previous disputes?",
-        answers: [
-            "It threatened to upset the balance of power in the Senate",
-            "It challenged the constitutionality of the Monroe Doctrine",
-            "It dismantled long held southern plantation privileges",
-            "It introduced foreign intervention into domestic policy"
+            "Outlawing slavery and requiring conversion to Catholicism",
+            "Raising tariffs on cotton exports",
+            "Forcing settlers to return to the United States",
+            "Banning all land ownership by foreigners"
         ],
         correct: 0,
-        explanation: "Missouri threatened the sectional balance in the Senate, raising slavery tensions."
+        explanation: "Mexico outlawed slavery and required Catholic conversion, angering U.S. settlers."
     },
     {
-        q: "Which principle of the Monroe Doctrine had the greatest immediate impact on global diplomacy?",
+        q: "What event marked Texas declaring independence from Mexico?",
         answers: [
-            "The rejection of future European colonization",
-            "The creation of joint military patrols with Britain",
-            "The demand that Latin American nations adopt republican governments",
-            "The guarantee of U.S. military protection for Africa"
+            "The revolt led by Sam Houston in 1836",
+            "The signing of the Adams-Onís Treaty",
+            "The Battle of Buena Vista",
+            "The Gadsden Purchase"
         ],
         correct: 0,
-        explanation: "The doctrine immediately warned Europe against new colonization in the Americas."
+        explanation: "Sam Houston led the revolt that declared Texas an independent republic in 1836."
     },
     {
-        q: "What factor most directly enabled the Market Revolution to reshape regional specialization?",
+        q: "Why did the U.S. initially delay annexing Texas?",
         answers: [
-            "Expansion of transportation networks",
-            "Growth of foreign investment in railroads",
-            "New federal restrictions on land purchases",
-            "Decline of southern cotton production"
+            "Fear of expanding slavery and provoking war with Mexico",
+            "Lack of interest in western land",
+            "Opposition from southern Democrats",
+            "British threats of naval retaliation"
         ],
         correct: 0,
-        explanation: "New canals, roads, and railroads allowed regions to specialize in different economic activities."
+        explanation: "Northern opposition to slavery expansion and fear of war slowed annexation."
     },
     {
-        q: "Why did the Lowell System represent a new stage in American industrial capitalism?",
+        q: "What slogan summarized American demands in the Oregon boundary dispute?",
         answers: [
-            "It integrated labor, housing, and moral regulation within the factory model",
-            "It guaranteed wages indexed to inflation",
-            "It operated entirely without child labor",
-            "It allowed women managerial roles in textile corporations"
+            "54°40′ or Fight!",
+            "Fifty States or Bust",
+            "Westward and Onward",
+            "Union Forever"
         ],
         correct: 0,
-        explanation: "Lowell combined factory work, dormitories, and strict oversight in a single industrial model."
+        explanation: "Expansionists demanded the entire Oregon territory using the slogan '54°40′ or Fight!'"
     },
     {
-        q: "Which development most accelerated the forced removal of Native nations during the Jackson administration?",
+        q: "How did President Polk resolve the Oregon boundary dispute?",
         answers: [
-            "Georgia's assertion of state authority over Cherokee land",
-            "Britain's withdrawal from western trading posts",
-            "Louisiana's petition for statehood",
-            "Mexico's invasion of northern tribes"
+            "By compromising at the 49th parallel",
+            "By threatening war with Britain",
+            "By abandoning American claims",
+            "By submitting the issue to Congress"
         ],
         correct: 0,
-        explanation: "Georgia's claims over Cherokee land enabled federal removal policy to accelerate."
+        explanation: "Polk compromised with Britain by dividing Oregon at the 49th parallel."
     },
     {
-        q: "In Worcester v. Georgia, the Supreme Court's ruling most directly affirmed which constitutional principle?",
+        q: "What was the immediate cause of the Mexican-American War?",
         answers: [
-            "Federal authority over state interference in tribal sovereignty",
-            "State authority over internal commercial regulations",
-            "Presidential authority to negotiate removal treaties",
-            "Congressional power to restrict Native migration"
+            "A clash between U.S. and Mexican troops near the Rio Grande",
+            "Mexico’s invasion of California",
+            "The rejection of the Slidell Mission by Britain",
+            "The discovery of gold in California"
         ],
         correct: 0,
-        explanation: "The ruling affirmed federal authority over states in matters of tribal sovereignty."
+        explanation: "Fighting broke out after Mexican troops crossed the Rio Grande and attacked U.S. forces."
     },
     {
-        q: "Which economic effect followed Jackson's destruction of the Second National Bank?",
+        q: "Which U.S. general captured Mexico City in 1847?",
         answers: [
-            "Expansion of unstable credit through state banks",
-            "Rapid appreciation of western land prices",
-            "Decline in foreign purchases of U.S. exports",
-            "Consolidation of banking authority under Congress"
+            "Winfield Scott",
+            "Zachary Taylor",
+            "Stephen Kearny",
+            "John C. Frémont"
         ],
         correct: 0,
-        explanation: "Without the Bank, state banks issued risky loans and unstable currency."
+        explanation: "General Winfield Scott led the invasion that captured Mexico City."
     },
     {
-        q: "Which factor best explains the rising influence of the Whig Party during the 1830s?",
+        q: "What was a major consequence of the Mexican-American War?",
         answers: [
-            "Widespread opposition to perceived executive overreach",
-            "Northern support for universal male suffrage",
-            "Southern demands for stronger slave codes",
-            "Western dissatisfaction with internal improvements"
+            "The expansion of slavery into national political debate",
+            "The immediate abolition of slavery",
+            "The collapse of the Democratic Party",
+            "The annexation of Canada"
         ],
         correct: 0,
-        explanation: "The Whigs formed in response to Jackson's strong use of executive power."
+        explanation: "New territories forced slavery to the center of national politics."
     },
     {
-        q: "Which reform movement most directly grew out of the religious message of the Second Great Awakening?",
+        q: "What did the Treaty of Guadalupe Hidalgo accomplish?",
         answers: [
-            "Temperance activism",
-            "Prison abolition",
-            "Western land reform",
-            "Expansion of tariffs"
+            "Transferred California and New Mexico to the United States",
+            "Ended British claims in Oregon",
+            "Granted independence to Texas",
+            "Resolved the Kansas-Nebraska dispute"
         ],
         correct: 0,
-        explanation: "The revival stressed personal morality, inspiring temperance campaigns."
+        explanation: "Mexico ceded large territories in exchange for $15 million."
     },
     {
-        q: "How did transcendentalist philosophy most challenge traditional American social values?",
+        q: "What was the purpose of the Wilmot Proviso?",
         answers: [
-            "It emphasized intuition and individual conscience over institutional authority",
-            "It rejected all forms of organized religion",
-            "It mandated communal property ownership",
-            "It advocated strict adherence to scientific rationalism"
+            "To ban slavery in territory acquired from Mexico",
+            "To extend the Missouri Compromise line",
+            "To enforce the Fugitive Slave Act",
+            "To protect popular sovereignty"
         ],
         correct: 0,
-        explanation: "Transcendentalists trusted individual conscience more than organized institutions."
+        explanation: "Wilmot proposed banning slavery in land taken from Mexico."
     },
     {
-        q: "What feature made the Seneca Falls Declaration of Sentiments particularly radical for its time?",
+        q: "Why did the Wilmot Proviso fail to pass the Senate?",
         answers: [
-            "Its demand for female suffrage",
-            "Its rejection of legal marriage",
-            "Its call for abolition of private property",
-            "Its proposal for equal military service"
+            "Southern senators blocked it",
+            "Northern Democrats opposed it",
+            "It violated Supreme Court precedent",
+            "Polk vetoed it"
         ],
         correct: 0,
-        explanation: "Calling for women's voting rights was far more radical than most reform demands of the time."
+        explanation: "Southern opposition prevented Senate approval."
     },
     {
-        q: "What was the primary political weakness of the Free Soil Party?",
+        q: "What discovery intensified westward migration in 1848?",
         answers: [
-            "Its focus on limiting slavery's expansion rather than abolishing it",
-            "Its refusal to run national candidates",
-            "Its reliance on southern plantation votes",
-            "Its opposition to protective tariffs"
+            "Gold in California",
+            "Silver in Nevada",
+            "Oil in Texas",
+            "Coal in Pennsylvania"
         ],
         correct: 0,
-        explanation: "The party opposed expanding slavery but did not call for ending it nationwide."
+        explanation: "Gold discovered at Sutter’s Mill triggered the California Gold Rush."
     },
     {
-        q: "Which factor most encouraged mass Irish immigration to the United States in the 1840s?",
+        q: "What political issue most divided the nation after 1848?",
         answers: [
-            "Catastrophic famine resulting from British colonial policies",
-            "Newly established American religious freedoms",
-            "Incentives from U.S. railroad companies",
-            "Rising industrial wages in eastern cities"
+            "The expansion of slavery into new territories",
+            "Tariff levels",
+            "Immigration quotas",
+            "Banking regulation"
         ],
         correct: 0,
-        explanation: "The Irish fled massive famine caused by crop failure and British policy."
+        explanation: "Slavery in new territories dominated national politics."
     },
     {
-        q: "Why did many Americans fear increasing numbers of German immigrants in the mid nineteenth century?",
+        q: "What position did Free-Soilers support?",
         answers: [
-            "They believed Germans supported radical political ideologies",
-            "Germans dominated the textile trade",
-            "Germans opposed public education",
-            "Germans arrived with significant military training"
+            "Keeping slavery out of western territories",
+            "Immediate abolition everywhere",
+            "Expansion of slavery westward",
+            "States’ rights over federal law"
         ],
         correct: 0,
-        explanation: "Nativists feared Germans brought new radical political ideas after the revolutions in Europe."
+        explanation: "Free-Soilers opposed the spread of slavery but not its existence."
     },
     {
-        q: "Which territorial dispute most directly contributed to the outbreak of the Mexican American War?",
+        q: "Which compromise admitted California as a free state?",
         answers: [
-            "Conflicted claims regarding the Rio Grande border",
-            "Competition with Britain for California",
-            "Spanish campaign to reclaim Texas",
-            "Native alliances in New Mexico"
+            "Compromise of 1850",
+            "Missouri Compromise",
+            "Kansas-Nebraska Act",
+            "Crittenden Compromise"
         ],
         correct: 0,
-        explanation: "The war began after Mexican and American troops clashed over the Rio Grande boundary."
+        explanation: "The Compromise of 1850 admitted California as a free state."
     },
     {
-        q: "What feature made Polk's presidency one of the most expansionist in U.S. history?",
+        q: "What controversial law was strengthened by the Compromise of 1850?",
         answers: [
-            "Fulfillment of specific territorial objectives including Oregon and California",
-            "Immediate annexation of Canada",
-            "Permanent military alliance with Mexico",
-            "Advocacy for nationwide slavery expansion"
+            "The Fugitive Slave Act",
+            "The Homestead Act",
+            "The Force Act",
+            "The Tenure of Office Act"
         ],
         correct: 0,
-        explanation: "Polk fulfilled multiple territorial goals including Oregon, Texas, and California."
+        explanation: "The Fugitive Slave Act was made stricter and more enforceable."
     },
     {
-        q: "Why did Jefferson initially hesitate to approve the Louisiana Purchase?",
+        q: "Why did the Fugitive Slave Act anger many Northerners?",
         answers: [
-            "He questioned whether the Constitution allowed acquisition of foreign territory",
-            "He feared Spain would declare war",
-            "He believed the land was agriculturally useless",
-            "He expected Britain to seize the territory first"
+            "It required citizens to help capture runaway slaves",
+            "It abolished jury trials",
+            "It legalized slavery nationwide",
+            "It taxed free states"
         ],
         correct: 0,
-        explanation: "Jefferson feared purchasing land violated a strict reading of the Constitution."
+        explanation: "Citizens were forced to assist in the capture of escaped slaves."
     },
     {
-        q: "What was the most significant economic consequence of the Erie Canal?",
+        q: "What event directly resulted from the Kansas-Nebraska Act?",
         answers: [
-            "New York City became the dominant commercial port in the United States",
-            "Southern planters gained direct access to Atlantic trade",
-            "Western farms shifted to tobacco production",
-            "Federal land prices collapsed"
+            "Bleeding Kansas",
+            "The Mexican-American War",
+            "The Compromise of 1850",
+            "The Dred Scott decision"
         ],
         correct: 0,
-        explanation: "The Erie Canal linked western farms to Atlantic markets and made New York the top port."
+        explanation: "Violence erupted as pro- and anti-slavery settlers clashed in Kansas."
     },
     {
-        q: "Which development most weakened the Federalist Party after the War of 1812?",
+        q: "What principle allowed settlers to vote on slavery in new territories?",
         answers: [
-            "The Hartford Convention's perceived disloyalty",
-            "The popularity of the National Bank",
-            "Expansion of cotton agriculture",
-            "Increased German and Irish immigration"
+            "Popular sovereignty",
+            "Nullification",
+            "Judicial review",
+            "Implied powers"
         ],
         correct: 0,
-        explanation: "The Hartford Convention made Federalists appear disloyal during wartime."
+        explanation: "Popular sovereignty left the decision to settlers."
     },
     {
-        q: "Why was the Battle of New Orleans significant despite occurring after the Treaty of Ghent?",
+        q: "Which party emerged in response to the Kansas-Nebraska Act?",
         answers: [
-            "It boosted national pride and elevated Andrew Jackson's reputation",
-            "It forced Britain to renegotiate the peace terms",
-            "It secured American control of Florida",
-            "It ended Native alliances against the United States"
+            "Republican Party",
+            "Federalist Party",
+            "Populist Party",
+            "Liberty Party"
         ],
         correct: 0,
-        explanation: "The victory created enormous national pride and boosted Jackson's status."
+        explanation: "The Republican Party formed to oppose the spread of slavery."
     },
     {
-        q: "Which diplomatic agreement reduced naval armaments on the Great Lakes after the War of 1812?",
+        q: "Who led the violent abolitionist response in Kansas?",
         answers: [
-            "Rush Bagot Agreement",
-            "Webster Ashburton Treaty",
-            "Adams Onis Treaty",
-            "Jay's Treaty"
+            "John Brown",
+            "Frederick Douglass",
+            "Harriet Tubman",
+            "William Lloyd Garrison"
         ],
         correct: 0,
-        explanation: "This agreement reduced naval weapons on the Great Lakes."
+        explanation: "John Brown led violent attacks against pro-slavery settlers."
+    },
+    {
+        q: "What incident symbolized growing violence in Congress itself?",
+        answers: [
+            "The caning of Charles Sumner",
+            "The firing on Fort Sumter",
+            "The impeachment of Andrew Johnson",
+            "The passage of the Force Act"
+        ],
+        correct: 0,
+        explanation: "Preston Brooks caned Senator Charles Sumner on the Senate floor."
+    },
+    {
+        q: "Which Supreme Court case ruled Congress could not ban slavery in territories?",
+        answers: [
+            "Dred Scott v. Sandford",
+            "Marbury v. Madison",
+            "McCulloch v. Maryland",
+            "Gibbons v. Ogden"
+        ],
+        correct: 0,
+        explanation: "The Dred Scott decision declared congressional bans on slavery unconstitutional."
+    },
+    {
+        q: "What did Lincoln argue in the Lincoln-Douglas debates?",
+        answers: [
+            "The nation could not survive half slave and half free",
+            "Popular sovereignty should decide slavery everywhere",
+            "Slavery was morally neutral",
+            "The Constitution protected slavery permanently"
+        ],
+        correct: 0,
+        explanation: "Lincoln warned the nation could not remain divided."
+    },
+    {
+        q: "What event immediately preceded Southern secession?",
+        answers: [
+            "The election of Abraham Lincoln",
+            "The Dred Scott decision",
+            "John Brown’s execution",
+            "The Compromise of 1850"
+        ],
+        correct: 0,
+        explanation: "Lincoln’s election triggered Southern secession."
+    },
+    {
+        q: "Which state seceded first from the Union?",
+        answers: [
+            "South Carolina",
+            "Mississippi",
+            "Georgia",
+            "Virginia"
+        ],
+        correct: 0,
+        explanation: "South Carolina was the first state to secede in December 1860."
+    },
+    {
+        q: "What event officially started the Civil War?",
+        answers: [
+            "The attack on Fort Sumter",
+            "The Battle of Antietam",
+            "Lincoln’s inauguration",
+            "Sherman’s March"
+        ],
+        correct: 0,
+        explanation: "Confederate forces fired on Fort Sumter in April 1861."
     }
 ];

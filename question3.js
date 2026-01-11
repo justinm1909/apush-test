@@ -1,278 +1,366 @@
-// QUESTIONS SET 3 (51–75)
+// QUESTIONS SET 3 (69–102) — Unit 4 ONLY
 const questions3 = [
     {
-        q: "Why did Henry Clay oppose the annexation of Texas during his presidential campaign?",
+        q: "Which border states remained in the Union during the Civil War?",
         answers: [
-            "He feared it would inflame sectional tensions",
-            "He predicted the land was agriculturally useless",
-            "He believed Texas lacked a functional government",
-            "He sought a military alliance with Mexico"
+            "Delaware, Maryland, Kentucky, and Missouri",
+            "Virginia, Tennessee, Arkansas, and North Carolina",
+            "Texas, Louisiana, Mississippi, and Alabama",
+            "South Carolina, Georgia, and Florida"
         ],
         correct: 0,
-        explanation: "Clay feared annexation would inflame sectional conflict over slavery."
+        explanation: "The border states stayed in the Union despite allowing slavery."
     },
     {
-        q: "Which factor most contributed to the sharp increase in cotton production after 1800?",
+        q: "Why was Maryland especially critical for the Union to retain?",
         answers: [
-            "Adoption of the cotton gin",
-            "Large scale Irish immigration",
-            "Federal subsidies for textile mills",
-            "Decline of rice cultivation"
+            "Its secession would isolate Washington, D.C.",
+            "It controlled Southern cotton exports",
+            "It contained the largest Confederate army",
+            "It bordered California"
         ],
         correct: 0,
-        explanation: "The cotton gin made cotton easier to process, boosting production."
+        explanation: "Losing Maryland would have surrounded the capital with Confederate territory."
     },
     {
-        q: "Why did the Panic of 1819 have such widespread social and political effects?",
+        q: "What action did Lincoln take to keep Maryland in the Union?",
         answers: [
-            "It was the first major financial depression in U.S. history",
-            "It resulted in widespread crop failures",
-            "It led to an embargo on foreign goods",
-            "It forced abolition of the National Bank"
+            "Suspended habeas corpus and imposed martial law",
+            "Offered immediate emancipation",
+            "Negotiated with Confederate leaders",
+            "Relocated the capital"
         ],
         correct: 0,
-        explanation: "It was the first major depression and caused widespread economic hardship."
+        explanation: "Lincoln suspended habeas corpus to suppress secessionist threats."
     },
     {
-        q: "Which factor most encouraged the growth of western cities during the Market Revolution?",
+        q: "What economic advantage did the North possess during the Civil War?",
         answers: [
-            "New canals and river systems connecting farmers to distant markets",
-            "Mandatory settlement programs from Congress",
-            "Expansion of gold mining",
-            "Creation of federal industrial zones"
+            "Most of the nation’s factories and railroads",
+            "Greater cotton production",
+            "Foreign financial backing",
+            "Lower population density"
         ],
         correct: 0,
-        explanation: "New transportation routes helped western towns grow into commercial centers."
+        explanation: "The North controlled industry, railroads, and capital."
     },
     {
-        q: "Why did the invention of the mechanical reaper transform agriculture in the Midwest?",
+        q: "What hope did the Confederacy place in King Cotton diplomacy?",
         answers: [
-            "It enabled farmers to cultivate and harvest far larger acreages",
-            "It minimized the need for migrant labor",
-            "It replaced the cotton gin in agricultural importance",
-            "It provided a new crop resistant to drought"
+            "That Europe would aid the South to secure cotton",
+            "That cotton prices would collapse Northern industry",
+            "That enslaved labor would expand overseas",
+            "That cotton could replace gold as currency"
         ],
         correct: 0,
-        explanation: "The reaper allowed Midwestern farmers to farm much larger areas efficiently."
+        explanation: "The South hoped European dependence on cotton would force support."
     },
     {
-        q: "Which belief united most supporters of the Whig Party?",
+        q: "Why did King Cotton diplomacy fail?",
         answers: [
-            "The federal government should actively promote economic development",
-            "All new western states should enter as free states",
-            "Indian Removal was unconstitutional",
-            "The National Bank should be abolished"
+            "Europe found alternative cotton sources",
+            "Britain opposed slavery on moral grounds",
+            "The Union controlled all ports",
+            "Cotton production ceased entirely"
         ],
         correct: 0,
-        explanation: "Whigs believed the government should support economic modernization."
+        explanation: "Britain and France turned to Egypt and India for cotton."
     },
     {
-        q: "What made the Nullification Crisis a major constitutional test?",
+        q: "What foreign policy incident nearly caused war with Britain?",
         answers: [
-            "It challenged federal supremacy by asserting that states could invalidate federal laws",
-            "It required the Supreme Court to rewrite key parts of the Constitution",
-            "It suspended tariff collection throughout the South",
-            "It allowed states to independently negotiate trade agreements"
+            "The Trent Affair",
+            "The Ostend Manifesto",
+            "The Rush-Bagot Agreement",
+            "The Clayton-Bulwer Treaty"
         ],
         correct: 0,
-        explanation: "South Carolina asserted it could nullify federal law, challenging federal supremacy."
+        explanation: "Union forces seized Confederate envoys from a British ship."
     },
     {
-        q: "Which event most exposed limitations in Jackson's power as president?",
+        q: "What was Lincoln’s primary constitutional justification for wartime actions?",
         answers: [
-            "His inability to enforce Worcester v. Georgia",
-            "His failure to secure Texas annexation",
-            "His veto of the Maysville Road bill",
-            "His destruction of the National Bank"
+            "Preserving the Union justified expanded executive power",
+            "States forfeited rights during rebellion",
+            "Congress delegated all authority to the president",
+            "The Supreme Court approved emergency powers"
         ],
         correct: 0,
-        explanation: "Jackson could not force Georgia to obey the Worcester ruling."
+        explanation: "Lincoln argued saving the Union required extraordinary measures."
     },
     {
-        q: "Which reform movement most directly addressed worsening urban conditions brought on by industrialization?",
+        q: "What did the First Confiscation Act declare?",
         answers: [
-            "Temperance",
-            "Education reform",
-            "Public health reform",
-            "Transcendentalism"
-        ],
-        correct: 2,
-        explanation: "Industrial growth led to urban overcrowding and poor sanitation that reformers addressed."
-    },
-    {
-        q: "Which belief defined transcendentalist views on social reform?",
-        answers: [
-            "Individuals must improve themselves before improving society",
-            "Government regulations were essential for justice",
-            "Scientific progress was the key to moral progress",
-            "Religious doctrine should guide political decision making"
+            "Slaves used by the Confederacy were contraband of war",
+            "All Confederate property was seized",
+            "Southern banks were nationalized",
+            "Land was redistributed to freedmen"
         ],
         correct: 0,
-        explanation: "Reformers believed personal transformation would lead to social improvement."
+        explanation: "Captured slaves were not returned to owners."
     },
     {
-        q: "What sparked the growth of the abolitionist movement during the 1830s?",
+        q: "What did the Second Confiscation Act expand?",
         answers: [
-            "Increased publication of antislavery newspapers and autobiographies",
-            "Discovery of new cotton regions",
-            "Collapse of the colonization movement",
-            "Supreme Court rulings on fugitive slave laws"
+            "Freedom for slaves of those aiding the rebellion",
+            "Voting rights for African Americans",
+            "Land ownership guarantees",
+            "Military enlistment requirements"
         ],
         correct: 0,
-        explanation: "Abolition gained momentum through widely read newspapers and slave narratives."
+        explanation: "It broadened emancipation beyond contraband status."
     },
     {
-        q: "Why did the Temperance Movement gain broad support among middle class Americans?",
+        q: "What was the bloodiest single day of the Civil War?",
         answers: [
-            "Alcohol abuse was linked to poverty, crime, and domestic instability",
-            "Churches threatened excommunication",
-            "It promised immediate political reform",
-            "It offered financial compensation to supporters"
+            "The Battle of Antietam",
+            "The Battle of Gettysburg",
+            "The Battle of Shiloh",
+            "The Battle of Fredericksburg"
         ],
         correct: 0,
-        explanation: "Many linked alcohol abuse to crime, poverty, and family breakdown."
+        explanation: "Antietam resulted in over 22,000 casualties in one day."
     },
     {
-        q: "Which group did nativist movements of the mid nineteenth century target most aggressively?",
+        q: "Why did Lincoln remove General McClellan from command?",
         answers: [
-            "Irish Catholics",
-            "German farmers",
-            "British merchants",
-            "Canadian migrants"
+            "He repeatedly failed to pursue Lee aggressively",
+            "He supported Confederate leaders",
+            "He disobeyed direct orders to resign",
+            "He lost control of Union troops"
         ],
         correct: 0,
-        explanation: "Irish Catholics were targets due to prejudice and economic competition."
+        explanation: "McClellan was overly cautious and failed to capitalize on victories."
     },
     {
-        q: "What factor allowed the United States to assert the Monroe Doctrine with limited military capability?",
+        q: "What naval innovation altered warfare during the Civil War?",
         answers: [
-            "Britain shared interest in limiting European intervention in the Americas",
-            "Spain had already withdrawn from all colonial holdings",
-            "France signed a neutrality agreement",
-            "Russia refused to expand its Pacific settlements"
+            "Ironclad ships",
+            "Submarines",
+            "Aircraft reconnaissance",
+            "Steam-powered cannons"
         ],
         correct: 0,
-        explanation: "Britain supported limiting European influence, helping enforce the doctrine."
+        explanation: "The Monitor and Merrimac demonstrated ironclad warfare."
     },
     {
-        q: "What primary issue divided northern and southern political leaders during Monroe's presidency?",
+        q: "Why was Vicksburg strategically important?",
         answers: [
-            "Expansion of slavery into western territories",
-            "High tariffs on foreign goods",
-            "The need for a new national capital",
-            "Relations with Native nations"
+            "It gave the Union control of the Mississippi River",
+            "It was the Confederate capital",
+            "It secured foreign recognition",
+            "It protected Atlanta"
         ],
         correct: 0,
-        explanation: "Debates centered on whether slavery should expand westward."
+        explanation: "Control of Vicksburg split the Confederacy in two."
     },
     {
-        q: "Why did the United States pursue the Adams Onis Treaty with Spain?",
+        q: "What did Sherman’s campaign demonstrate about Union strategy?",
         answers: [
-            "To acquire Florida and secure boundaries in the Southwest",
-            "To gain Texas as a new slaveholding state",
-            "To secure British withdrawal from the Great Lakes",
-            "To prevent Mexican independence"
+            "That civilian infrastructure could be targeted",
+            "That negotiation was preferable to force",
+            "That naval power alone could win wars",
+            "That emancipation was reversible"
         ],
         correct: 0,
-        explanation: "The treaty secured Florida and established a firm southwestern boundary."
+        explanation: "Total war aimed to break civilian morale."
     },
     {
-        q: "What factor most shaped the rapid settlement of the Old Northwest?",
+        q: "What happened to Richmond in April 1865?",
         answers: [
-            "Construction of new road and canal systems",
-            "Collapse of eastern farmland prices",
-            "Federal subsidies for cotton plantations",
-            "Arrival of southern planters seeking slavery expansion"
+            "It fell to Union forces",
+            "It became the new Confederate capital",
+            "It was spared destruction",
+            "It was reclaimed by Lee"
         ],
         correct: 0,
-        explanation: "Better roads and canals sped migration and settlement in the Northwest."
+        explanation: "Richmond was abandoned and captured by Union troops."
     },
     {
-        q: "Which invention most revolutionized long distance trade along American rivers?",
+        q: "What condition did Lincoln demand for peace?",
         answers: [
-            "Steamboat",
-            "Horse drawn barge",
-            "Early locomotive",
-            "Steel hulled ship"
+            "Restoration of the Union",
+            "Immediate compensation to slaveholders",
+            "Permanent Southern autonomy",
+            "Foreign mediation"
         ],
         correct: 0,
-        explanation: "Steamboats allowed faster, two way travel on rivers, transforming commerce."
+        explanation: "Lincoln refused peace without Union restoration."
     },
     {
-        q: "Which belief distinguished early factory reformers from mainstream political leaders?",
+        q: "What role did African Americans play during Reconstruction governments?",
         answers: [
-            "Factory work required government oversight to protect laborers",
-            "Industrial growth should be slowed",
-            "Women should be excluded from all wage labor",
-            "Child labor was necessary for national prosperity"
+            "They served as legislators and voters",
+            "They were excluded from politics",
+            "They only worked in federal offices",
+            "They served only in military roles"
         ],
         correct: 0,
-        explanation: "Factory reformers argued that government protections were needed to safeguard workers."
+        explanation: "African Americans held elected office during Reconstruction."
     },
     {
-        q: "Which change best reflects how politics expanded during the Age of Jackson?",
+        q: "Who were scalawags?",
         answers: [
-            "Rise in mass participation through rallies, newspapers, and party organizations",
-            "Elimination of property requirements for all elections",
-            "Abolition of the Electoral College",
-            "Requirement that presidents be selected by popular vote"
+            "Southern whites who supported Reconstruction",
+            "Northern military officers",
+            "Former enslaved laborers",
+            "Foreign investors"
         ],
         correct: 0,
-        explanation: "Campaigns, rallies, newspapers, and parties drew more people into politics."
+        explanation: "Scalawags were Southern Republicans."
     },
     {
-        q: "Why did Jackson veto the recharter of the National Bank?",
+        q: "What economic policy goal drove many Reconstruction governments?",
         answers: [
-            "He believed it served elite financial interests at the expense of ordinary citizens",
-            "He feared it would undermine cotton exports",
-            "He argued it violated the Missouri Compromise",
-            "He opposed all forms of federal taxation"
+            "Modernizing Southern infrastructure",
+            "Restoring plantation slavery",
+            "Ending public education",
+            "Reducing federal involvement"
         ],
         correct: 0,
-        explanation: "Jackson argued the Bank favored elites at the expense of ordinary citizens."
+        explanation: "They promoted railroads, schools, and development."
     },
     {
-        q: "Which event demonstrated the limitations of Native resistance to U.S. expansion?",
+        q: "What amendment penalized states that denied male citizens the vote?",
         answers: [
-            "Defeat of Tecumseh's confederacy at the Battle of Tippecanoe",
-            "Collapse of Cherokee leadership during the Creek Wars",
-            "Failure of the Seminole migration north",
-            "Removal of the Mohawk into British Canada"
+            "Fourteenth Amendment",
+            "Thirteenth Amendment",
+            "Fifteenth Amendment",
+            "Civil Rights Act of 1875"
         ],
         correct: 0,
-        explanation: "Tecumseh's defeat eliminated hopes of a unified Native resistance movement."
+        explanation: "Representation could be reduced for voter suppression."
     },
     {
-        q: "Which factor most encouraged sectional economic differences in the early nineteenth century?",
+        q: "Why did Radical Republicans favor military Reconstruction?",
         answers: [
-            "Distinct regional specializations supported by new transportation networks",
-            "Decline of European trade influence",
-            "Uniform federal regulations on labor",
-            "Equal distribution of immigrant populations"
+            "They distrusted Southern governments",
+            "They wanted immediate secession",
+            "They opposed federal authority",
+            "They supported Johnson’s policies"
         ],
         correct: 0,
-        explanation: "Transportation allowed each region to specialize economically, deepening divisions."
+        explanation: "They believed only federal enforcement could protect rights."
     },
     {
-        q: "Why did the United States hesitate to annex Texas immediately after its independence?",
+        q: "What was Thaddeus Stevens’ Reconstruction goal?",
         answers: [
-            "Debates over expanding slavery into the new territory",
-            "Uncertainty over Mexico's northern borders",
-            "Lack of interest in western settlement",
-            "Fear of conflict with Britain"
+            "Fundamental transformation of Southern society",
+            "Quick reconciliation without punishment",
+            "Restoration of Confederate leadership",
+            "Economic isolation of the North"
         ],
         correct: 0,
-        explanation: "Texas raised immediate questions about slave and free state balance."
+        explanation: "Stevens sought sweeping change and protection for freedmen."
     },
     {
-        q: "What issue most divided America during the debate over the Mexican Cession?",
+        q: "What did the Civil Rights Act of 1866 establish?",
         answers: [
-            "Whether slavery should expand into the newly acquired lands",
-            "Whether the National Bank should finance territorial governments",
-            "Whether California should remain under military rule",
-            "Whether to preserve Spanish as an official language"
+            "African Americans as U.S. citizens",
+            "Immediate voting rights nationwide",
+            "Land redistribution",
+            "Desegregation of schools"
         ],
         correct: 0,
-        explanation: "Slavery in the new Mexican territories created fierce national disputes."
+        explanation: "It defined citizenship and civil equality."
+    },
+    {
+        q: "Why was the Civil Rights Act of 1875 ineffective?",
+        answers: [
+            "It was poorly enforced",
+            "It was immediately repealed",
+            "It excluded public accommodations",
+            "It lacked congressional support"
+        ],
+        correct: 0,
+        explanation: "Federal enforcement was weak and inconsistent."
+    },
+    {
+        q: "What effect did sharecropping have on freedmen?",
+        answers: [
+            "It trapped many in cycles of debt",
+            "It ensured economic independence",
+            "It redistributed plantation land",
+            "It eliminated racial discrimination"
+        ],
+        correct: 0,
+        explanation: "Debt tied workers to landowners."
+    },
+    {
+        q: "Who led the Ku Klux Klan?",
+        answers: [
+            "Nathan Bedford Forrest",
+            "Robert E. Lee",
+            "Jefferson Davis",
+            "Andrew Johnson"
+        ],
+        correct: 0,
+        explanation: "Former Confederate general Forrest helped found the KKK."
+    },
+    {
+        q: "What was the primary goal of Southern Redeemers?",
+        answers: [
+            "Restore white Democratic control",
+            "Expand Reconstruction",
+            "Protect black voting rights",
+            "Increase federal spending"
+        ],
+        correct: 0,
+        explanation: "Redeemers sought to end Republican rule."
+    },
+    {
+        q: "What weakened Northern commitment to Reconstruction?",
+        answers: [
+            "Economic depression and corruption scandals",
+            "Renewed Southern military resistance",
+            "Foreign wars",
+            "Supreme Court intervention"
+        ],
+        correct: 0,
+        explanation: "The Panic of 1873 and scandals reduced support."
+    },
+    {
+        q: "What was the Panic of 1873?",
+        answers: [
+            "A severe economic depression",
+            "A Southern rebellion",
+            "A Supreme Court decision",
+            "A banking reform act"
+        ],
+        correct: 0,
+        explanation: "Financial collapse shifted national priorities."
+    },
+    {
+        q: "What political scandal symbolized corruption in the Grant administration?",
+        answers: [
+            "Credit Mobilier",
+            "Teapot Dome",
+            "Watergate",
+            "Whiskey Rebellion"
+        ],
+        correct: 0,
+        explanation: "Railroad bribery exposed corruption."
+    },
+    {
+        q: "What result followed the Amnesty Act of 1872?",
+        answers: [
+            "Former Confederates regained political rights",
+            "Freedmen gained land ownership",
+            "Federal troops increased",
+            "Reconstruction was strengthened"
+        ],
+        correct: 0,
+        explanation: "Most former Confederates were pardoned."
+    },
+    {
+        q: "What election crisis led directly to the Compromise of 1877?",
+        answers: [
+            "The disputed election of 1876",
+            "Grant’s reelection",
+            "Johnson’s impeachment",
+            "Lincoln’s assassination"
+        ],
+        correct: 0,
+        explanation: "Electoral votes were contested in several states."
     }
 ];

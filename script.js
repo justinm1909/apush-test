@@ -46,6 +46,7 @@ function initQuiz() {
     const questionCounter = document.getElementById("question-counter");
     const backBtn = document.getElementById("back-btn");
     const restartBtn = document.getElementById("restart-btn");
+    correctAnswers = 0;
 
     // Check if elements exist
     if (!questionText || !answerButtons || !feedback || !nextBtn || !questionCounter || !backBtn || !restartBtn) {
@@ -149,6 +150,7 @@ function initQuiz() {
         // Use the shuffled correct index
         if (index === currentCorrectIndex) {
             button.classList.add("correct");
+            answersCorrect += 1;
             feedback.innerHTML = "<strong>Correct.</strong> " + q.explanation;
         } else {
             button.classList.add("wrong");
@@ -163,7 +165,8 @@ function initQuiz() {
     nextBtnHandler = () => {
         current++;
         if (current >= shuffled.length) {
-            questionText.innerText = "You finished the quiz!";
+            questionText.innerText = "You finished the quiz!" + "you got a score of " + answersCorrect + "/" + allQuestions.length ;
+            
             answerButtons.innerHTML = "";
             feedback.innerHTML = "";
             questionCounter.innerText = `Completed: ${shuffled.length} of ${shuffled.length} questions`;
